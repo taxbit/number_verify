@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/taxbit/number_verify/issues"
+    "url": "https://taxbit.github.com/number_verify"
   },
   "homepage": "https://github.com/taxbit/number_verify#readme",
   "devDependencies": {
