@@ -1,0 +1,12 @@
+
+.item.item__symbol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+
+.item__symbol {
+    color: #333333;
+}

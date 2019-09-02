@@ -1,0 +1,44 @@
+.item__input {
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0px;
+    color: #333333;
+}
+
+.item__input::placeholder {
+    color: #999999;
+}
+
+.item__input_disabled {
+    background-color: #F0F0F0;
+}
+
+.item__input_hover {
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    cursor: default;
+}
+
+.item__input_active:focus {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.48);
+}
+
+.item__input_hidden {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.item__input_hidden_x {
+    font-size: 15px;
+}
+
+.item__input_hidden::placeholder {
+    color: #333333;
+}
+
+.phone_notvalid .item__input_enabled {
+    border: 1px solid #FF1100;
+}

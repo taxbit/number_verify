@@ -1,0 +1,9 @@
+@import url('./__error-msg/phone__error-msg.css');
+
+.phone {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 90%;
+    position: relative;
+}
