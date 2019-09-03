@@ -34,7 +34,7 @@ npm run build
 
 *index.js:*
 ```
-const mask = '+7(985)0II-*X-I*'; //Маска
+const mask = '+7(985)0II-*X-I*'; //Маска, произвольная длина
 const validPhone = '+7(985)012-77-77' //Телефон для валидации
 const phone = new Phone(mask, document.forms.phone, validPhone); //document.forms.phone - форма для добавления компонента
 ```	
