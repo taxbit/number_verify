@@ -2,6 +2,7 @@ const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: { main: './src/index.js' },
@@ -56,5 +57,8 @@ module.exports = {
             filename: 'index.html'
         }),
         new WebpackMd5Hash(),
+        new CopyWebpackPlugin([
+          {from:'src/images',to:'images'} 
+      ]),
     ]
 };
